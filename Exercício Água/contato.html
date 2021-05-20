@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>contato</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <link rel="shortcut icon" href="gotinha.jfif" type=image/xicon />
+  </head>
+<body>
+   <div class="caixa">
+      <table id="tabela" border="2">
+       <ul>
+         <tr>
+           <th><li><a href="/">Home</a></li></th>
+           <th><li><a class="ativa">Questionário</a></li></th>
+           <th><li><a href="autor.html">Sobre o autor</a></li></th>
+         </tr>
+       </ul>
+      </table>
+    </div>
+
+  <form>
+    <div class="titulo">
+        <h2>Questionário sobre o desperdício de água</h2>
+    </div>
+        <fieldset>
+            <table>
+                <tr>
+                    <td>
+                        <label for='nome'>Nome</label>
+                        <input type='text' name='nome' id='nome' required />
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for='endereco'>Profissão:</label>
+                        <input type='text' name='endereco' id='profisso' />
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <label for='email'>E-mail:</label>
+                        <input type='email' name='email' id='email' />
+
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <label for='telefone'>Telefone:</label>
+                        <input type='tel' name='telefone' id='telefone' />
+
+                    </td>
+                </tr>
+            </table>
+        </fieldset>
+
+        <fieldset>
+            <table>
+                 <tr>
+                    <td>
+                        <label for='banho'>Quanto tempo você demora no banho:</label>
+                        <input type='text' name='banho' id='banho' required />
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td>
+                        <label for='louca'>Você lava a louça com a torneira aberta:</label>
+                        <input type='text' name='louca' id='louca' required />
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <label for='dente'>Você escova os dentes com a torneira aberta:</label>
+                        <input type='text' name='dente' id='dente' required />
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <label for='carro'>Você lava o seu carro quantas vezes por mês:</label>
+                        <input type='text' name='carro' id='carro' required />
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <p>O que você faz para evitar o desperdicio de água na sua casa: <br> <textarea name="cv" cols="20" rows="3"></textarea></p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p>Obrigado pela sua colaboração!!! <br> </p>
+                    </td>
+                </tr>
+              </table>
+        </fieldset> 
+           <table>
+              <tr>
+                    <td>
+                        <input type="reset" value="Limpar" />
+                        <input type="submit" value="Enviar" />
+                    </td>
+                </tr>
+            </table>
+    </form>
+    <img id="gotinha" src='gotinha.jfif'alt="gotinha" width="400">
+</body>
+</html>
